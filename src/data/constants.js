@@ -314,7 +314,7 @@ export const Bio = {
       school: "Darbhanga College Of Engineering, Darbhanga",
       date: "Dec 2021 - May 2025",
       grade: "7.5 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Electrical and Electronics Engineering at Darbhanga College Of Engineering, Darbhanga.",
+      desc: "I have recently completed my Bachelor's degree in Electrical and Electronics Engineering from Darbhanga College Of Engineering, Darbhanga. During my studies, I gained strong technical knowledge in electrical circuits, control systems, power electronics, and embedded systems, and worked on various practical engineering projects. I am now looking to apply my skills and knowledge in the industry.",
       degree: "Bachelor of Technology - BTech, Electrical and Electronics Engineering ",
     },
     {
@@ -322,8 +322,8 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "M.V College",
       date: "Apr 2019 - Apr 2025",
-      grade: "78.5%",
-      desc: "I completed my class 12 high school education at M.V College .",
+      grade: "68%",
+      desc: "I completed my Class 12 (ISC) from M.V College with Physics, Chemistry, and Mathematics (PCM) as core subjects.",
       degree: "ISC(XII)",
     },
    
@@ -336,7 +336,7 @@ export const Bio = {
       date: "Jun 2024 - Dec 2024",
       description:
         "For students in J&K and Ladakh, a scalable system for digital scholarship disbursement was developed, improving transparency and cutting down on paperwork.",
-      image:"https://raw.githubusercontent.com/amanraj6221/sihpmsss-1728-/refs/heads/main/images/PMSSS.png?token=GHSAT0AAAAAADFTBQKFPPYUMDLY52MW77GC2C2GE3A",
+      image:"https://raw.githubusercontent.com/amanraj6221/sihpmsss-1728-/refs/heads/main/images/PMSSS.png?token=GHSAT0AAAAAADFTBQKFBIB4GFTEHDXX65P62C2HOCA",
       tags: [
         "MySQL",
         "JavaScript",
@@ -359,7 +359,7 @@ export const Bio = {
       description:
         `Created a system that ensures access to scholarships by verifying students across different states. Used a Random Forest classification model to analyze scholarship data and determine students’ eligibility based on their information. Designed a user interface with React, Bootstrap, and jQuery for the end of the system. Employed PHP, JavaScript, and Python, for the operations of the project.  `,
       image:
-        "https://raw.githubusercontent.com/amanraj6221/interstate-schlorship-portal/refs/heads/main/images/screencapture-localhost-interstate-schlorship-portal-2025-06-24-10_46_57.png?token=GHSAT0AAAAAADFTBQKFYBMBSMS62MAOKVZS2C2HAXA",
+        "https://raw.githubusercontent.com/amanraj6221/interstate-schlorship-portal/refs/heads/main/images/screencapture-localhost-interstate-schlorship-portal-2025-06-24-10_46_57.png",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
       category: "web app",
       github: "https://github.com/amanraj6221/interstate-schlorship-portal.git",
