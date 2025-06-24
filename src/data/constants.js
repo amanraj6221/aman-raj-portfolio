@@ -18,6 +18,7 @@ export const Bio = {
  export const skills = [
   {
     title: "Frontend",
+    logo: "https://img.freepik.com/premium-vector/front-end-logo-design_717549-4108.jpg",
     skills: [
       {
         name: "React Js",
@@ -68,6 +69,7 @@ export const Bio = {
 
     {
       title: "Backend",
+      logo: "https://as2.ftcdn.net/jpg/04/75/01/75/1000_F_475017553_91jWgCknT2GQncXLNq5Kcv5I9veccR2Z.jpg",
       skills: [
         {
           name: "Node Js",
@@ -107,8 +109,8 @@ export const Bio = {
 
     {
       title: "Android",
-      image :"https://corizo.in/wp-content/uploads/2024/11/Android-logo.jpg",
-      skills: [
+  logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukNHWo8fnHyMLTJ_FRwGiK8DO8To0GjkJiQ&s",
+  skills: [
         {
           name: "Java",
           image:
@@ -135,11 +137,12 @@ export const Bio = {
     
     {
       title: "Others",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWFj3pEclfosIO-KyA2eylx55bnD1dUOcNA&s",
       skills: [
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIWFj3pEclfosIO-KyA2eylx55bnD1dUOcNA&s",
         },
         {
           name: "GitHub",
@@ -164,17 +167,13 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPmNWAtnroI424NFmJBwNtUs6YIL_eVXHjA&s",
         },
-        {
-          name: "Adobe XD",
-          image:
-            "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-        },
+       
         {
           name: "Figma",
           image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZS99xObBZNa22xMrmF-p585FWfxDoma3wGA&s",
         },
       ],
     },
@@ -337,7 +336,7 @@ export const Bio = {
       date: "Jun 2024 - Dec 2024",
       description:
         "For students in J&K and Ladakh, a scalable system for digital scholarship disbursement was developed, improving transparency and cutting down on paperwork.",
-      image:"https://www.canva.com/design/DAGYJ2LIVEM/Ogy7ff1cgd5xUT59bOFHCw/view?utm_content=DAGYJ2LIVEM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h81ae85a0c8",
+      image:"https://raw.githubusercontent.com/amanraj6221/sihpmsss-1728-/refs/heads/main/images/PMSSS.png?token=GHSAT0AAAAAADFTBQKFPPYUMDLY52MW77GC2C2GE3A",
       tags: [
         "MySQL",
         "JavaScript",
@@ -358,12 +357,12 @@ export const Bio = {
       title: " Inter-state Student Verification Solution",
       date: "Apr 2023 - Dec 2023",
       description:
-        "Created a system that ensures access to scholarships by verifying students across different states.",
+        `Created a system that ensures access to scholarships by verifying students across different states. Used a Random Forest classification model to analyze scholarship data and determine students’ eligibility based on their information. Designed a user interface with React, Bootstrap, and jQuery for the end of the system. Employed PHP, JavaScript, and Python, for the operations of the project.  `,
       image:
-        "",
+        "https://raw.githubusercontent.com/amanraj6221/interstate-schlorship-portal/refs/heads/main/images/screencapture-localhost-interstate-schlorship-portal-2025-06-24-10_46_57.png?token=GHSAT0AAAAAADFTBQKFYBMBSMS62MAOKVZS2C2HAXA",
       tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
       category: "web app",
-      github: "https://github.com/amanraj6221/SCHLORSHIP-PORTAL.git",
+      github: "https://github.com/amanraj6221/interstate-schlorship-portal.git",
       member: [
         
       ],

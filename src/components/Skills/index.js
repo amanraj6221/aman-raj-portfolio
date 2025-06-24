@@ -97,9 +97,10 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <SkillCard key={index}>
             <SkillTitleContainer>
-              <SkillLogo src={skill.logo} alt={skill.title} />
-              <SkillTitle>{skill.title}</SkillTitle>
-            </SkillTitleContainer>
+  <SkillLogo src={skill.logo} alt={skill.title} />
+  <SkillTitle>{skill.title}</SkillTitle>
+</SkillTitleContainer>
+
             <SkillList>
               {skill.skills.map((item, idx) => (
                 <SkillItem key={idx}>
