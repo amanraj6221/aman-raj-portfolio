@@ -183,7 +183,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 4,
-      img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicDFPbYqiEfB-erpV6lDZUltDukpOcFSKtD8-A2R9pGIHmvPBdXKomGpHBg-kvT3kvPlHcxOJ6nIus1g3KGm6Qg9CrhO-tP0zpBredBlrXo4ThIvuEyFLFCjXniuQXxnMmyv5-75dzibHAjR7KD8qw1udKGU-jkxJDl19rfrCsfliIpKVVLXYA-4XhPu-N/s229/cdac-logo.png",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMK7RYKKGZ0UCmHaZxPCwzDJLRL5tgIAcMv7ws1xnC_nwAdhUQcF53LorMg_dx5Rq4eg&usqp=CAU",
       role: "Software Developer Internship",
       company: "CDAC- Kolkata",
       date: "March 2025 - Present",
@@ -219,6 +219,40 @@ export const Bio = {
       ],
       
     },
+
+    {
+  id: 2,
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpN8gLSFSP_Lvj9Ph4GHGRAjn98-OeWd5bBQ&s",
+  role: "Emerging Technologies (AI & Cloud) Intern",
+  company: "Edunet Foundation",
+  date: "Jan 2024 - Feb 2024",
+  desc: `During my internship at Edunet Foundation under the Emerging Technologies (AI & Cloud) program, I gained practical exposure to AI/ML concepts and cloud computing through real-world simulations and project-based learning. I developed cloud-integrated AI models with a focus on edge deployment and optimizing performance in resource-constrained environments. My work involved building and deploying machine learning workflows using tools such as Google Colab, AWS, and IBM Cloud. I actively participated in guided sessions and hackathons that emphasized the principles of responsible AI, ethical decision-making, and sustainability. This experience also enhanced my collaboration skills, as I worked with remote teams to complete structured module assignments, sharpening both my technical and interpersonal abilities.`,
+  skills: [
+    "Python",
+    "SQL",
+    "Shell Scripting",
+    "Google Colab",
+    "Jupyter Notebook",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "AWS (EC2, S3)",
+    "IBM Cloud",
+    "Google Cloud",
+    "Machine Learning Fundamentals",
+    "Cloud Deployment & Scalability",
+    "Edge Computing",
+    "Responsible AI",
+    "Git",
+    "GitHub",
+    "Google Drive",
+    "VS Code",
+    "Team Collaboration",
+    "Problem-Solving",
+    "Technical Documentation",
+    "Remote Communication"
+  ]
+},
     {
       id: 0,
       img: "https://toppng.com/uploads/preview/salesforce-logo-115630685425lo9y3yoc9.png",
@@ -240,6 +274,27 @@ export const Bio = {
         "TypeScript",
         "Node Js",
       
+      ],
+     
+    },
+
+    {
+      id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpN8gLSFSP_Lvj9Ph4GHGRAjn98-OeWd5bBQ&s",
+      role: "Cybersecurity Virtual Intern",
+      company: "Edunet Foundation.",
+      date: "Oct 2023 - Nov 2023",
+     desc: `During this internship, I designed a cybersecurity project aimed at enhancing secure communication in the healthcare sector by concealing sensitive data within medical image files using steganography techniques. I implemented encryption algorithms to protect patient data during transmission, ensuring strict confidentiality. To make the solution practical, I developed a user-friendly graphical interface tailored for healthcare professionals, allowing seamless access to the steganography tool without technical complexity. The system was designed to comply with HIPAA regulations, ensuring secure handling and privacy of patient records. This experience deepened my understanding of applied cryptography, data privacy, and compliance in real-world medical use cases.
+     `,
+
+      skills: [
+  "Steganography",
+  "AES Encryption",
+  "Data Privacy",
+  "HIPAA Compliance",
+  "Secure Design Thinking",
+  "UX for Non-Tech Users",
+  "Technical Documentation",
       ],
      
     },
