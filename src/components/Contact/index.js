@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef, useState } from 'react';
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
@@ -125,45 +124,61 @@ const ContactButton = styled.input`
 const Contact = () => {
 
   //hooks
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const form = useRef();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    const formData = {
-      email: form.current.from_email.value,
-      name: form.current.from_name.value,
-      subject: form.current.subject.value,
-      message: form.current.message.value,
+  
+    const formData = new FormData(form.current);
+    const data = {
+      from_email: formData.get("from_email"),
+      from_name: formData.get("from_name"),
+      subject: formData.get("subject"),
+      message: formData.get("message"),
     };
   
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+      const response = await fetch("http://localhost:5000/submit-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
   
       if (response.ok) {
         setOpen(true);
         form.current.reset();
       } else {
-        console.log('Error submitting form');
+        console.log("Error submitting form");
       }
     } catch (error) {
-      console.error('Error:', error);
+      console.error("Error:", error);
     }
   };
+  
   
 
 
   return (
     <Container>
       <Wrapper>
-       
+        <Title>Contact</Title>
+        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <ContactForm ref={form} onSubmit={handleSubmit}>
+          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactButton type="submit" value="Send" />
+        </ContactForm>
+        <Snackbar
+          open={open}
+          autoHideDuration={6000}
+          onClose={()=>setOpen(false)}
+          message="Email sent successfully!"
+          severity="success"
+        />
       </Wrapper>
     </Container>
   )
